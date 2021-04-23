@@ -1,26 +1,10 @@
 source 'https://rubygems.org'
 
-<<<<<<< HEAD
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
 # Use sqlite3 as the database for Active Record
-group :development, :test do 
-   gem 'sqlite3'    #gem to use in development-test environment
-   gem 'rails_12factor'
-end
-
-group :production do 
-  gem 'pg'        
-end
-=======
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.1'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3', group: :development
-gem 'pg', '0.18.1', group: :production
-gem 'rails_12factor', group: :production
->>>>>>> 5166ceb3b2c17333117cc9396de9d1185699749f
+gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -52,9 +36,5 @@ gem 'spring',        group: :development
 # gem 'capistrano-rails', group: :development
 
 # Use debugger
-<<<<<<< HEAD
 # gem 'debugger', group: [:development, :test]
 
-=======
-# gem 'debugger', group: [:development, :test]
->>>>>>> 5166ceb3b2c17333117cc9396de9d1185699749f
