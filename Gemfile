@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-<<<<<<< HEAD
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
 # Use sqlite3 as the database for Active Record
@@ -13,14 +11,7 @@ end
 group :production do 
   gem 'pg'        
 end
-=======
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.1'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3', group: :development
-gem 'pg', '0.18.1', group: :production
-gem 'rails_12factor', group: :production
->>>>>>> 5166ceb3b2c17333117cc9396de9d1185699749f
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
